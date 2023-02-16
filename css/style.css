@@ -1,0 +1,150 @@
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+ 
+  :root{
+      --primary-color:#FD6E0A;
+      --bg:#FFF8F3
+  }
+  img{
+      max-width: 100%;
+  }
+  *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  body{
+      font-family: 'Work Sans', sans-serif;
+  }
+  
+  .container{
+      max-width: 1440px;
+      margin: 0 auto;
+  }
+  header{
+      padding: 50px 0 ;
+      background: rgba(255, 144, 14, 0.1);
+  } 
+  nav{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 10px;
+      align-items: center;
+  }
+  .logo{
+      grid-column: 1 / 3;
+  }
+  .logo a{
+      font-weight: 700;
+  font-size: 45px;
+  line-height: 53px; 
+  
+  text-align: center; 
+  color: #131313;
+      text-decoration: none;
+  }
+  .menu{
+      grid-column: 3 / 6;
+      display: flex;
+      justify-content: flex-end;
+  }
+  .menu ul{
+      list-style: none;
+      display: flex;
+      align-items: center;
+  }
+  .menu ul li{}
+  .menu ul li a{
+      font-weight: 500;
+  font-size: 18px;
+  line-height: 26px; 
+  text-align: center; 
+  color: #424242;
+      padding: 10px 15px;
+      text-decoration: none;
+  }
+  .menu ul li a:hover{}
+  
+  main{
+      padding: 20px 0;
+  } 
+  .heroBanner{
+      text-align: center;
+      padding: 100px 0 0; 
+  }
+  .bannerContent{
+      margin: 0 auto;
+      max-width: 870px;
+  }
+  .bannerContent h1{
+    font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+text-align: center; 
+color: #131313;
+  }
+  .bannerContent p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px; 
+    text-align: center; 
+    color: #727272;
+    margin: 30px 0;
+  }
+  .btn{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    background: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    padding: 20px 25px;
+    display: inline-block;
+    text-decoration: none;    
+  }
+.heroBanner img{
+      margin-top: 40px;
+}
+
+.featuresSection{
+    padding: 50px 0;
+}
+  .featuresSection .container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .featureImage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+  .featureImage img{
+    display: block;
+    width: 100%;
+}
+  .featureContent{
+    padding: 70px;
+}
+  .featureContent h2{
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 53px;
+    color: #727272;
+    max-width: 400px;
+  }
+  .featureContent h2 strong{ 
+color: #131313;
+  }
+  .featureContent h2 span{ 
+color: #FF900E;
+  }
+
+  .featureContent p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px; 
+color: #727272;
+margin: 24px 0;
+  }
