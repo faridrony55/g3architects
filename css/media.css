@@ -206,7 +206,23 @@
     .header .container { 
         padding: 20px;
     }
+    .featuresImage:hover .number {
+        bottom: -60px;
+        transform: translateX(-50%);
+    }
 }
 @media screen and (max-width: 575px){
+    .menu ul { 
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav.container{
+        max-width: 100%;
+    }
+    .menu ul li a { 
+        font-size: 24px; 
+        padding: 8px 18px; 
+    }
+    
     
 }

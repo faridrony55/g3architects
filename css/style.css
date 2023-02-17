@@ -54,6 +54,7 @@
   }
   .menu ul li{}
   .menu ul li a{
+display: block; 
       font-weight: 500;
   font-size: 18px;
   line-height: 26px; 
