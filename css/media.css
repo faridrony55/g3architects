@@ -1,0 +1,212 @@
+@media screen and (max-width: 1600px){
+    .container { 
+        max-width: calc(100% - 100px);
+    }
+    .logo a { 
+        font-size: 35px; 
+    }
+    header {
+        padding: 35px 0 40px; 
+    }
+    .bannerContent { 
+        max-width: 650px;
+    }
+    .bannerContent h1 { 
+        font-size: 55px;
+        line-height: 60px; 
+    }
+    .featureContent h2 { 
+        font-size: 40px;
+        line-height: 50px; 
+    }
+    .featuresContent .title h2 { 
+        font-size: 40px;
+        line-height: 45px; 
+    }
+    .featuresImage .number h2 { 
+        font-size: 50px;
+        line-height: 55px; 
+    }
+    .featuresImage .number { 
+        max-width: 350px; 
+        padding: 25px 35px; 
+        bottom: -50px;
+        left: -80px;
+    }
+    .featuresContent {
+        padding-right: 120px;
+    }
+    .featuresContent .list  h3 { 
+        font-size: 18px;
+        line-height: 20px; 
+    }
+    .featuresContent .list p { 
+        font-size: 15px;
+        line-height: 22px; 
+        margin-top: 5px;
+    }
+    .header h2 { 
+        font-size: 40px;
+        line-height: 45px; 
+        margin-bottom: 12px;
+    }
+    .serviceSection .container { 
+        gap: 5%;
+        padding: 45px 20px;
+    }
+    .serviceBox h3 { 
+        font-size: 40px;
+        line-height: 45px; 
+    }
+    .serviceBox p { 
+        font-size: 18px;
+        line-height: 20px; 
+    }
+    .header {
+        padding-top: 60px;
+    }
+    .sponsporsSection .container { 
+        gap: 10%; 
+    }
+    footer {
+        padding: 60px 0;
+    }
+    footer .container { 
+        padding: 30px 20px;
+    }
+    footer p {  
+        font-size: 18px;
+        line-height: 20px; 
+    }
+}
+@media screen and (max-width: 1200px){
+    .serviceBox h3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .serviceBox { 
+        padding: 35px 15px; 
+    }
+    .serviceSection .container {
+        gap: 10%;
+        padding: 45px 20px;
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
+    }
+}
+@media screen and (max-width: 992px){
+    .logo a {
+        font-size: 25px;
+    }
+    .bannerContent h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+    .bannerContent p {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 22px; 
+        margin: 15px 0;
+    }
+    .bannerContent {
+        max-width: 500px;
+    }
+    .heroBanner { 
+        padding: 60px 0 0;
+    }
+    .featuresSection .container { 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .featureImage { 
+        gap: 15px;
+    }
+    .featureContent {
+        padding: 40px;
+    }
+    .featureContent h2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .featureContent p { 
+        font-size: 16px;
+        line-height: 26px; 
+        margin: 15px 0;
+    }
+    .loveenjoySection .container { 
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .featuresContent { 
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;    padding-right: 0;
+        margin-bottom: 40px;
+    }
+    .featuresContent .title { 
+        margin-bottom: 20px;
+        grid-column: span 4;
+    }
+    .featuresContent   p { 
+        grid-column: span 4;
+    }
+    .featuresContent .list { 
+        margin: 0px 0; 
+        border-radius: 8px;
+        grid-column: span 2;
+    }
+    .featuresImage .number { 
+        bottom: -60px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .featuresImage .number h2 {
+        font-size: 40px;
+        line-height: 40px;
+    }
+    .featuresImage .number span {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 30px; 
+    }
+    .serviceSection .container {
+        gap: 20px;
+        padding: 35px 20px; 
+    }
+}
+@media screen and (max-width: 768px){
+    .logo {
+        grid-column: span 5;
+        text-align: center;
+    }
+    .menu {
+        grid-column: span 5; 
+        justify-content: center;
+    }
+    .bannerContent h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .featureContent {
+        padding: 30px 15px;
+        text-align: center;
+    }
+    .container {
+        max-width: calc(100% - 50px);
+    }
+    .featuresContent { 
+        grid-template-columns: repeat(1, 1fr); 
+        margin-bottom: 40px;
+    }
+    .featuresContent .title, .featuresContent p, .featuresContent .list { 
+        grid-column: auto;
+    }
+    .featuresContent .list  h3 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .header .container { 
+        padding: 20px;
+    }
+}
+@media screen and (max-width: 575px){
+    
+}
